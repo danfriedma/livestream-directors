@@ -7,15 +7,19 @@ Endpoints
 ### View All Accounts
 
 ```
-GET /accounts```
+GET /accounts
+```
 
 ### View One Account
 ```
-GET /accounts/:id```
+GET /accounts/:id
+```
 
 ### Create Account
 ```
-POST /accounts```
+POST /accounts
+```
+
 Body:
 ```js
 { "livestream_id": "6488818" }
@@ -23,7 +27,9 @@ Body:
 
 ### Update Account
 ```
-POST /accounts/:id```
+POST /accounts/:id
+```
+
 Body:
 ```js
 { "livestream_id":"6488818",
@@ -31,10 +37,13 @@ Body:
   "dob":"1942-11-17T00:00:00.000Z",
   "favorite_camera":"Polaroid",
   "favorite_movies":["SomeMovie","AnotherMovie"]
-}"```
+}"
+```
+
 ### Delete Account
 ```
-DELETE /accounts/:id```
+DELETE /accounts/:id
+```
 
 
 ## Node Modules
