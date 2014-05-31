@@ -29,6 +29,10 @@ Body:
 ```
 POST /accounts/:id
 ```
+Header:
+```
+Authorization: Bearer md5("Martin Scorsese")
+```
 
 Body:
 ```js
