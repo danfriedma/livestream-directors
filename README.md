@@ -37,7 +37,7 @@ Body:
   "dob":"1942-11-17T00:00:00.000Z",
   "favorite_camera":"Polaroid",
   "favorite_movies":["SomeMovie","AnotherMovie"]
-}"
+}
 ```
 
 ### Delete Account

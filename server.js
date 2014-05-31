@@ -20,4 +20,5 @@ app.delete('/accounts/:id', accounts.delete);
 var server = http.createServer(app)
 server.listen(port);
 
+//Expose App
 module.exports = app;
