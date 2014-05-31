@@ -2,8 +2,20 @@ Livestream Directors
 =========
 An API for Livestream Directors
 _____ 
-Endpoints
---------
+
+Run Server
+----------
+
+from the repository root, run:
+```sh
+$ node server
+```
+
+__________
+
+
+API Endpoints
+-------------
 ### View All Accounts
 
 ```
@@ -71,6 +83,12 @@ ___________________
 
 Test
 ----
+
+while running a local instance of redis (with default port):
+```sh
+$ redis-server
+```
+
 from the repository root, run:
 ```sh
 $ make test
