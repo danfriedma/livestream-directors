@@ -54,8 +54,10 @@ DELETE /accounts/:id
 * [Request]
 * [Crypto]
 * [Lodash]
+
 ### Database
 * [Redis]
+
 ### Testing
 * [Mocha]
 * [Chai]
